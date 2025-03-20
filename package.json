@@ -1,0 +1,22 @@
+{
+  "name": "companyprofile",
+  "version": "1.0.0",
+  "description": "## What is CodeIgniter?",
+  "main": "index.php",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./public/src/input.css -o ./public/src/output.css --watch"
+  },
+  "author": "agungreza",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "swiper": "^11.2.5"
+  }
+}
